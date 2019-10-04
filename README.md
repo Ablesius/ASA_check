@@ -1,7 +1,7 @@
-# ASS_check
+# ASA_check
 
 A small tool to check which packages in an arch linux system need to be updated
-according to ASS e-mails.
+according to ASA e-mails.
 The tool is based on pyalpm.
 
 # Installation
@@ -11,7 +11,7 @@ The tool is based on pyalpm.
 
 # Usage
 
-	$ ASS_check.py exim firefox webkit2gtk jenkins grafana libnghttp2 gettext
+	$ ASA_check.py exim firefox webkit2gtk jenkins grafana libnghttp2 gettext
 	The following packages are installed with their corresponding version:
 	firefox 69.0-1
 	webkit2gtk 2.26.0-1
