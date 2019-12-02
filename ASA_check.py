@@ -23,9 +23,10 @@ def filter_packages(localdb, packages: list):
 
 def print_results(packages: list):
     """Print the packages installed in the system with their versions"""
-    print("The following packages are installed with their corresponding version:")
-    for package in packages:
-        print(package.name, package.version)
+    if len(packages) > 0:
+        print("The following packages are installed:")
+        for package in packages:
+            print(package.name, package.version)
 
 
 def main():

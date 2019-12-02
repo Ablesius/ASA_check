@@ -12,7 +12,7 @@ The tool is based on pyalpm.
 # Usage
 
 	$ ASA_check.py exim firefox webkit2gtk jenkins grafana libnghttp2 gettext
-	The following packages are installed with their corresponding version:
+	The following packages are installed:
 	firefox 69.0-1
 	webkit2gtk 2.26.0-1
 	libnghttp2 1.39.2-1
